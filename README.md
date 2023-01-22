@@ -27,6 +27,6 @@ OPTION #2 (Installation Build Image for Container)
 
 ~$ docker exec -it mintme /bin/bash
 
-~$ chmod +x mintme
+OPTION #3 (Running for Mining)
 
 ~$ ./mintme
