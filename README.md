@@ -1,5 +1,7 @@
 Mintme mining on Ubuntu Docker 
 ------------------------------
+OPTION #1 (Installation Docker)
+
 ~$ sudo apt-get update
 
 ~$ sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
@@ -11,6 +13,9 @@ Mintme mining on Ubuntu Docker
 ~$ sudo apt install docker-ce
 
 ~$ sudo usermod -aG docker ${USER}
+
+
+OPTION #2 (Installation Build Image for Container)
 
 ~$ sudo git clone https://github.com/masihgurutkj/koin.git
 
